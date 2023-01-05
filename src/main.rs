@@ -117,6 +117,6 @@ async fn main() -> Result<()> {
                 )
         )?;
 
-        tokio::time::sleep(std::time::Duration::from_secs(1)).await;
+        tokio::time::sleep(std::time::Duration::from_secs(5)).await;
     }
 }
